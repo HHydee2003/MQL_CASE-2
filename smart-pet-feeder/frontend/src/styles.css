@@ -1,0 +1,37 @@
+/* src/styles.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.App-header h1 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+table {
+  font-size: 1rem;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-hover tbody tr:hover {
+  color: #212529;
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.dataTableWrapper {
+  max-height: 400px;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+}
